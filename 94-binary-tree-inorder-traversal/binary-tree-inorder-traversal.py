@@ -12,9 +12,9 @@ class Solution:
             if node is None:
                 return
 
-            inorder(node.left)       # Left
-            result.append(node.val)  # Root
-            inorder(node.right)      # Right
+            inorder(node.left)     
+            result.append(node.val)  
+            inorder(node.right)     
 
         inorder(root)
 
